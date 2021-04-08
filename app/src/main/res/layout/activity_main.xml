@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtFirstName"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/TitleNombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtLastName"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/TitleApellido"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/TitleEmail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtEdad"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/TitleEdad"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtPost"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/TitleCargo"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtSalary"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/TitleSalario"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="110dp"
+            android:layout_height="36dp"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnGeneral"
+            android:layout_width="110dp"
+            android:layout_height="36dp"
+            android:text="General" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10pt"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/ListVEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

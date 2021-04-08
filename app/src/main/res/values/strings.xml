@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Employes</string>
+    <string name="TitleNombre">TitleNombre</string>
+    <string name="TitleApellido">TitleApellido</string>
+    <string name="TitleEmail">TitleEmail</string>
+    <string name="TitleEdad">TitleEdad</string>
+    <string name="TitleCargo">TitleCargo</string>
+    <string name="TitleSalario">TitleSalario</string>
+</resources>
